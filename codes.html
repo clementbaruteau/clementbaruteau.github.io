@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700' rel='stylesheet' type='text/css'>
+    <meta name="description" content="Clement Baruteau">
+    <meta name="author" content="Clement Baruteau">
+    <link rel="shortcut icon" href="favicon.png">
+    <title>Clement Baruteau</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+    <script src="js/chart.js"></script>
+
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+    <link rel="manifest" href="./manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  </head>
+
+  <body>
+  <div class="sticky">
+    <!-- NAVBAR ================================================== -->
+    <div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-inverse navbar-static-top clearfix" role="navigation">
+
+	    <div class="navbar-header clearfix">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html"></a>
+            </div>
+	    
+	   <div class="navbar-collapse collapse">
+	    <div class="c1 img">
+	      <a href="index.html"><img src="images/CB.png" alt="CB" style="float:left"></a>
+	    </div>
+	    <h0>Clément Baruteau</h0>
+	    <ul class="nav navbar-nav">		
+	      
+	      <li><a href="index.html">Welcome</a></li>
+	      
+	      <li><a href="cv.html">CV</a></li>
+	      
+	      <li><a href="publications.html">Publications</a></li>
+	      
+	      <li><a href="talks.html">Talks</a></li>
+	      
+	      <li><a href="codes.html">Codes</a></li>
+	      
+	    </ul>
+       <h1>CNRS researcher</h1>
+       <h1>IRAP, University of Toulouse</h1>
+	  </div>
+	</div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    
+
+<!-- Carousel ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+	
+	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	
+	<li data-target="#myCarousel" data-slide-to="1"></li>
+	
+	<li data-target="#myCarousel" data-slide-to="2"></li>
+	
+	<li data-target="#myCarousel" data-slide-to="3"></li>
+	
+	<li data-target="#myCarousel" data-slide-to="4"></li>
+	
+      </ol>
+      <div class="carousel-inner">
+	
+        <div class="item active">
+          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:slide images/slide-0.png" alt="loading image">
+          <img src="images/slide-0.png" alt="nice pictures of Toulouse and the conference venue" />
+        </div>
+	
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:slide images/slide-1.png" alt="loading image">
+          <img src="images/slide-1.png" alt="nice pictures of Toulouse and the conference venue" />
+        </div>
+	
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:slide images/slide-2.png" alt="loading image">
+          <img src="images/slide-2.png" alt="nice pictures of Toulouse and the conference venue" />
+        </div>
+	
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:slide images/slide-3.png" alt="loading image">
+          <img src="images/slide-3.png" alt="nice pictures of Toulouse and the conference venue" />
+        </div>
+	
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:slide images/slide-4.png" alt="loading image">
+          <img src="images/slide-4.png" alt="nice pictures of Toulouse and the conference venue" />
+        </div>
+	
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+<div class="container clearfix mb-20">
+
+  <h2><span>Public codes that I (co-)develop</span></h2>
+
+  <div class="row">
+    
+  <div class="c6 about ta-c">
+    <a href=https://github.com/charango/dustyfargoadsg/ target="_blank"><img src=http://clement.baruteau.free.fr/work/images/dustyfargoadsg.png alt="" /></a>
+    <p class="name">Dusty FARGO-ADSG</p>      
+    <p class="listing2">Branch of the original FARGO 2D hydrocode that includes gas self-gravity, an energy equation with various source terms, and dust modelled as Lagrangian super-particles and/or a pressureless fluid.
+    <a href=https://github.com/charango/dustyfargoadsg/ target="_blank">[Link to github]</a></p>
+  </div>
+  
+  <div class="c6 about ta-c">
+    <a href=https://github.com/charango/fargo2python/ target="_blank"><img src=http://clement.baruteau.free.fr/work/images/fargo2python.png alt="" /></a>
+    <p class="name">FARGO2PYTHON</p>      
+    <p class="listing2">A Python program to visualize the outputs of the original FARGO code, of the Dusty FARGO-ADSG and FARGO-3D codes.
+    <a href=https://github.com/charango/fargo2python/ target="_blank">[Link to github]</a></p>
+  </div>
+  
+  </div>
+    
+  <div class="clearfix"></div>  
+
+  <div class="row">
+    
+  <div class="c6 about ta-c">
+    <a href=https://github.com/charango/fargo2radmc3d target="_blank"><img src=http://clement.baruteau.free.fr/work/images/fargo2radmc3d.png alt="" /></a>
+    <p class="name">FARGO2RADMC3D</p>      
+    <p class="listing2">A Python program that computes synthetic images of the gas and/or dust emission of a protoplanetary disc via RADMC3D from the results of Dusty FARGO-ADSG or FARGO-3D hydrodynamical simulations.
+    <a href=https://github.com/charango/fargo2radmc3d target="_blank">[Link to github]</a></p>
+  </div>
+  
+  <div class="c6 about ta-c">
+    <a href=https://github.com/charango/postvecp2python target="_blank"><img src=http://clement.baruteau.free.fr/work/images/postvecp2python.png alt="" /></a>
+    <p class="name">Postvecp2python</p>      
+    <p class="listing2">A Python program to visualise the results of linear hydrodynamical simulations modelling oscillation modes in stars and planets with the LSB spectral code.
+    <a href=https://github.com/charango/postvecp2python target="_blank">[Link to github]</a></p>
+  </div>
+  
+  </div>
+  
+</div>
+  
+&nbsp
+  
+
+    </div>
+    <!--FOOTER-->
+    <div class="footer">
+      <div class="container clearfix">
+	<p class="pull-left">Website development partly based on  <a
+    href="https://coolstars20.github.io/" target="_blank">Cool Star 20's
+    website</a> source code on <a
+    href="https://github.com/coolstars20/website" target="_blank">github</a></p>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+    crossorigin=""></script>
+    
+  </body>
+</html>
